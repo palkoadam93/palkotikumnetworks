@@ -1,20 +1,28 @@
 #cim {
     background-color: rgba(255,255,255,.8);
-    color: black;
     padding: 1em;
     text-align:center;
-    font-family: 'Inter', sans-serif;
     border-bottom: 1px dotted;
 }
 
-#cim h1 {margin:1em;}
+#cim h1 {
+    margin:1em;
+    font-family: 'Inter', sans-serif;
+}
 
-#cim p {font-family: Arial; text-align:left;}
+#cim h2 {
+    margin: 1em 0;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+}
+
+#cim p {
+    text-align: justify;
+}
 
 aside {
     background-color: rgba(255,255,255,.8);
     padding: 0 1em 1em 1em;
-    color: black;
     border-right:1px dotted;
 }
 
@@ -30,7 +38,18 @@ aside h2 {
 
 aside ol, aside p {line-height: 1.8em;}
 
-article {background-image: linear-gradient(to right, rgba(255,255,255,.8), rgba(255,255,255,.2)); overflow:hidden;}
+article {
+    background-color: rgba(255,255,255,.8);
+}
+
+article h2 {
+    background-image: linear-gradient(to right, rgba(255,255,255,.2), white, rgba(255,255,255,.2));
+    padding: .5em;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+aside, article {border-bottom: 1px dotted;}
 
 aside a, article a {
     display: block;
@@ -46,23 +65,13 @@ article a {
     color: black;
     cursor: pointer;
     padding: 1em;
-    /*background-image: linear-gradient(to right, rgba(255,255,255,.8), rgba(255,255,255,.2));*/
 }
 
 article a:hover {
     /*background-image: linear-gradient(to right, white, rgba(255,0,0,.8));*/
-    background-image: linear-gradient(to right, rgba(255,255,255,.8), rgba(255,255,255,.2));
+    background-color:white;
     color: black;
 }
-
-article h2 {
-    background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,0,0,.8), rgba(255,255,255,0));
-    padding: .5em;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-}
-
-aside, article {border-bottom: 1px dotted;}
 
 @media (min-width:768px){
     section {
