@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image:url('system-2660914_1920.jpg');
+    background-image:url('system-2660914_1920kicsi.jpg');
     background-size: 100%;
     background-attachment: fixed;
 }
@@ -80,6 +80,9 @@ nav a:hover {
     body {
         width: 80%;
         margin: auto;
+        background-image:url('system-2660914_1920.jpg');
+        background-size: 100%;
+        background-attachment: fixed;
     }
 
     header h1 {
