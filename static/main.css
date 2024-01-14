@@ -156,4 +156,7 @@ footer a:hover {
         width: 8rem;
         display: inline-block;
     }
+    .dropdown-content a {
+        padding: .5rem;
+    }
 }
